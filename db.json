@@ -1,0 +1,14 @@
+{
+  "notes": [
+    {
+      "body": "Prueba de lista de notas :3",
+      "updated": "2022-09-30T01:32:28.697Z",
+      "id": 1
+    },
+    {
+      "body": "prueba 2\nse supone que esto es el body",
+      "updated": "2022-09-30T01:32:47.681Z",
+      "id": 2
+    }
+  ]
+}
