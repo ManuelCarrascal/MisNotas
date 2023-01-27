@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap");
 
 :root {
-  --color-main: #f68657;
+  --color-main: #06c258;
   --color-text: #383a3f;
   --color-dark: #1f2124;
   --color-gray: #677;
@@ -233,4 +233,40 @@ a {
 
 .note textarea::-webkit-scrollbar {
   display: none;
+}
+
+/*==========================
+=> MediaQueries
+============================*/
+
+@media (min-width:425px) and (max-width:767px){
+  .app {
+    max-width: 400px;
+  }
+}
+@media (min-width:426px) and (max-width:767px){
+  .app {
+    max-width: 400px;
+  }
+}
+@media (max-width:375px)and (min-width:320px){
+  .app {
+    max-width: 300px;
+  }
+  .floating-button{
+    width: 50px;
+    height: 50px;
+    bottom: 15px;
+  }
+}
+
+@media(min-width:376px)and (max-width:425px){
+  .app{
+    max-width: 345px;
+  }
+  .floating-button{
+    width: 50px;
+    height: 50px;
+    bottom: 15px;
+  }
 }
